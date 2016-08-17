@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Microsoft YaHei", simSum;
+    font-size: 12px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-style: normal;
+}
+i{
+    list-style: none;
+}
+ul,li{
+    list-style: none;
+}
+img{
+    display: block;
+    border: none;
+}
+.clearfix:after,.clearfix:before{
+    content: '';
+    display: block;
+    clear: both;
+}
+.bodyWrap{
+    width: 100%;
+}
+.loginWrap{
+    width:900px ;
+    height: 540px;
+    margin: 0 auto;
+    padding: 27px 0 33px;
+    min-height: 580px;
+    border-bottom: 66px;
+}
+.logo{
+    background: url(http://s16.mogucdn.com/p1/160408/upload_ie4gkmjvgvqtiytdg4zdambqgiyde_220x52.png) no-repeat;
+    display: inline-block;
+    width: 220px;
+    height: 52px;
+}
+.content{
+    padding-top: 40px;
+    height: 500px;
+}
+.lgBanner{
+    width: 400px;
+    padding: 20px 0 0 40px;
+    float: left;
+    display: inline;
+}
+.lgBanner img{
+    width: 400px;
+    height: 300px;
+}
+.rgLeft{
+    width: 322px;
+    float: right;
+    display: inline;
+    border: 1px solid #dcdcdc;
+    padding: 0 0 30px 38px;
+}
+.rgLeft h3{
+    font-size: 14px;
+    color: #333;
+    padding: 7px 40px;
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #ccc;
+}
+.phoneLeft{
+    margin-top: 20px;
+    width: 104px;
+    height: 30px;
+    margin-right: 10px;
+    border: 1px solid #c4c4c4;
+    color: #333;
+    font-size: 14px;
+    float: left;
+    position: relative;
+}
+.phoneLeft span{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.phoneLeft i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../image/bbb.png")no-repeat ;
+    float: right;
+    text-decoration: none;
+}
+.phoneLeft ul{
+    border: 1px solid darkgrey;
+    width: 206px;
+    height: 80px;
+    overflow-y: auto;
+    position: absolute;
+    top: 30px;
+    left: -1px;
+    display: none;
+    background: white;
+}
+.phoneLeft ul li{
+    font-size: 12px;
+    color: #000011;
+    width:169px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.phoneLeft:hover ul {
+    display: block;
+}
+.phoneLeft ul li:hover{
+    background:lightsteelblue;
+}
+.fix,.checkword input{
+    width: 169px;
+    height: 30px;
+    outline: none;
+    padding: 0 8px;
+    border: 1px solid darkgrey;
+    float: left;
+}
+.fix{
+    margin-top: 20px;
+}
+.checkword{
+    width: 322px;
+}
+.checkword input{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.checkword p,.register{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background:#ff4066;
+}
+.checkword p{
+    margin-top: 15px;
+    width:106px;
+    float: left;
+    color: #fff;
+}
+.register{
+    display: inline-block;
+    width: 304px;
+    margin-top: 20px;
+}
+.register a{
+    font-size: 14px;
+    color: #fff;
+}
+.check{
+    margin-top: 20px;
+    width: 16px;
+    height: 16px;
+    background: darkgrey;
+}
+span a,.bottom a{
+    font-size: 12px;
+    color: #000;
+}
+.bottom{
+    margin-top: 20px;
+    float: right;
+    margin-right: 40px;
+    color: #666;
+    text-decoration: underline;
+}
+.loginFoot{
+    margin-top: 50px;
+    background: url("../image/mm.png");
+    width: 100%;
+    height: 222px;
+}
+.foot{
+    width: 900px;
+    height: 100%;
+    margin: 10px auto;
+}
+.footLeft{
+    width: 390px;
+    height: 126px;
+    padding-top: 25px;
+    float: left;
+    margin-bottom: 30px;
+}
+.box li{
+    float: left;
+}
+.box li h3{
+    width: 130px;
+    height:22px;
+    margin-bottom: 8px;
+    left: 22px;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+}
+.footLeft .box li a,.footLeft .box li p{
+    width: 130px;
+    height: 24px;
+    text-align: center;
+    display: block;
+    color: #666;
+    line-height: 24px;
+}
+.footRight{
+    width: 180px;
+    height: 103px;
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.footRight h3{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+.img{
+    display: inline-block;
+    width: 180px;
+    height: 76px;
+    background: url("../image/mii.png")no-repeat white;
+}
+.copyright{
+    clear: both;
+    padding-top: 10px;
+    margin: 0;
+    text-align: center;
+    color: #999;
+    border-top: 1px dashed #dcdcdc;
+    height: 40px;
+    line-height: 40px
+}
